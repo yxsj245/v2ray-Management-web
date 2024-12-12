@@ -1,9 +1,9 @@
 import requests
 import json
 
-posturl = 'http://149.104.31.135:5000'
-iphost = '149.104.31.135:5000'
-apikey = 'vcvQW3SIwqgoSWCyUwq7cokt0sMLyiCd'
+posturl = 'http://替换服务器IP:5000'
+iphost = '替换服务器IP:5000'
+apikey = '替换密钥'
 
 def update_node(port,time,internet,type):
     url = f"{posturl}/update/node"
